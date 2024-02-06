@@ -27,7 +27,7 @@ class UserController extends Controller
             "name" => $name,
         ));
 
-        return back()->with("sasd","asd");
+        return back()->with("status","success");
 
     }
 }
