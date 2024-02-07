@@ -17,7 +17,7 @@
         <input  name= "password" type = "password" placeholder= "password">
         <button>
             Submit 
-        </button>
+        </button>   
     </form>
 </body>
 @if(session("status")=="success")
@@ -210,7 +210,7 @@ a {
         </style>
     <head>
         <link rel="stylesheet" href="style.css" />
-        <title>Form</title>
+        <title>sample form</title>
       </head>
       <body>
         <div class="login-wrap">
